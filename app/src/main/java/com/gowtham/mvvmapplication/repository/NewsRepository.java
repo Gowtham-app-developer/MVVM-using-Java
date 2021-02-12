@@ -23,7 +23,6 @@ public class NewsRepository {
         return newsRepository;
     }
 
-
     public NewsRepository(){
         newsApi = RetrofitClient.createService(ApiService.class);
     }
