@@ -24,3 +24,22 @@ __View__
 __ViewModel__
 
 - It is basically a link between Model and View.
+
+## Uses
+
+- If you use MVVM it will help you structuring your code in a nice way so that it is easy to understand for a new developer.
+- Using MVVM makes your project maintainable as everything is well organized and making changes are very easy.
+- Testability is easy with MVVM because all modules are independent and testable.
+- MVVM enhances the re-usability of the code.
+
+## Advantages
+
+- No tight coupling between the view and view model
+- No interfaces between view and model.
+- Easy to unit testing and code is event-driven.
+
+## Disadvantage
+
+- You have to create observables for each UI component.
+- The code size is quite excessive.
+
